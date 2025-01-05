@@ -15,3 +15,5 @@ while(n>0):
 
 # digits = int(numpy.log10(n)+1)
 print("The Number of digits : ",digits)
+
+
