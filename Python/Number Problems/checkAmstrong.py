@@ -7,7 +7,7 @@ n1 = int(input('Enter N : '))
 
 # while(n1>0):
 #     last_digit = n1 % 10
-#     n1 = int(n1/10)
+#     n1 = int(n1/10)   
 #     count = count + 1
 
 # while(n2>0):
