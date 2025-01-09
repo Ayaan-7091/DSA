@@ -16,3 +16,6 @@ if(sample == reversed):
 else:
     print("false")
 
+
+
+
