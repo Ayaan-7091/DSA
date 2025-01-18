@@ -1,4 +1,4 @@
-def print1ToN(n,count):
+def print_1_to_n(n,count):
     n = n - 1
     count = count + 1
 
@@ -9,4 +9,4 @@ def print1ToN(n,count):
         return
 
 n = int(input('Enter N :'))
-print1ToN(n,0)
+print_1_to_n(n,0)
