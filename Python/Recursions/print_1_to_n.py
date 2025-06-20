@@ -4,7 +4,7 @@ def print_1_to_n(n,count):
 
     if(n>=0):
         print(count)
-        print1ToN(n,count)
+        print_1_to_n(n,count)
     else:
         return
 
