@@ -1,0 +1,4 @@
+Here in I am studying hashing, with the example of calculating how many times a number appears in an Array :
+
+1> Here I am Using Brute Force approach for calculating same 
+2> Here I am creating a Hash by hard coding its size to 12 for instance, so that the frequency of numbers can be extracted from the hash, thus reducing the complexity 
