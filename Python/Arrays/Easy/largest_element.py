@@ -14,4 +14,16 @@ def retrieve(array):
 array = [3,2,4,6,9]
 print(retrieve(array))
 
-# Recursive Approarch
+# Recursive Approach
+def recursive_retrieve(array,max=array[0],i=0):
+    n = len(array)
+    if i >= n:
+        return max
+    if array[i]>max:
+        max = array[i]
+    return recursive_retrieve(array,max,i+1)  
+
+array = [8,6,7,5,9]
+highest_element = recursive_retrieve(array)
+print(highest_element)  
+
