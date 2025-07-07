@@ -26,5 +26,22 @@ k = remove_duplicate(arr)
 print("The array after removing duplicate elements is ")
 for i in range(k):
     print(arr[i], end=" ")
+print("\n")
 
-#Better approach
+#Optimal Approach - using two pointers
+
+def remove_duplicate_op(array):
+    n = len(array)
+    i = 0  # Slow pointer
+    for j in range(1, len(array)):  # Fast pointer
+        if array[j] != array[i]:
+            i += 1
+            array[i] = array[j]
+    
+    return i + 1  # Length of unique elements
+
+
+array = [1,2,2,3,4,4,4,5]
+n  =  remove_duplicate_op(array)
+for i in range(n):
+    print(array[i],end=" ")
