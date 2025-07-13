@@ -1,0 +1,10 @@
+1. Patterns 
+    1. Basic Box
+    2. Basic Ladder
+    3. Basic Numbered Ascending Ladder {1,12,123}
+    4. i Based Numbered Ladder {1,22,333}
+    5. Reverse Star Ladder
+    6. Reverse Numbered Ladder {123,12,1} 
+    7. Star Pyramid {*,***,******}
+    8. Reverse Star Pyramid (*****,***,*)
+
