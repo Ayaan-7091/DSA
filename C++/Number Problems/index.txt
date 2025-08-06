@@ -1,0 +1,2 @@
+1. Calculate the no. of digits in a given integer 
+2. Reverse a given integer
